@@ -1,0 +1,213 @@
+[
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_customer",
+            "type": "address"
+          }
+        ],
+        "name": "claimInsurance",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "customerDetails",
+        "outputs": [
+          {
+            "components": [
+              {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+              },
+              {
+                "internalType": "uint256",
+                "name": "age",
+                "type": "uint256"
+              },
+              {
+                "internalType": "address payable",
+                "name": "wallet",
+                "type": "address"
+              },
+              {
+                "internalType": "bool",
+                "name": "hasPolicy",
+                "type": "bool"
+              },
+              {
+                "internalType": "uint256",
+                "name": "lastPaymentTime",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "premiumPaid",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "paymentPeriod",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct InsuranceContract.Customer[]",
+            "name": "",
+            "type": "tuple[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "customerInfo",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "age",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address payable",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "bool",
+            "name": "hasPolicy",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lastPaymentTime",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "premiumPaid",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "paymentPeriod",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "customers",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "age",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address payable",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "bool",
+            "name": "hasPolicy",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lastPaymentTime",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "premiumPaid",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "paymentPeriod",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_customer",
+            "type": "address"
+          }
+        ],
+        "name": "isInsured",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "payPremium",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "_name",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_age",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_paymentPeriod",
+            "type": "uint256"
+          }
+        ],
+        "name": "signUp",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      }
+    ]
+  
