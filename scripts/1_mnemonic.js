@@ -1,6 +1,4 @@
 const bip39 = require('bip39');
-const ethers = require('ethers');
-const HDWalletProvider = require("@truffle/hdwallet-provider");
 const { hdkey } = require('ethereumjs-wallet');
 
 

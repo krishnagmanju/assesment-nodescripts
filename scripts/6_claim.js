@@ -4,9 +4,12 @@ const { InsuranceContract } = require("../config");
 
 // To claim by an address
 
-const walletaddress = "0xDb4B14F52Bfab4DF509710Ae339FFB77a95aE337"
+const walletaddress = "0xdb4b14f52bfab4df509710ae339ffb77a95ae337"
+const claimamount = Web3.utils.toWei('0.001', 'ether');
+console.log(claimamount)
+
 async function claim() {
-    await InsuranceContract.methods.claimInsurance(walletaddress).send({ from: "0xDb4B14F52Bfab4DF509710Ae339FFB77a95aE337" }).then((receipt) => {
+    await InsuranceContract.methods.claimInsurance(walletaddress).send({ from: "0xdb4b14f52bfab4df509710ae339ffb77a95ae337", value:claimamount}).then((receipt) => {
         console.log('claimed:', receipt);
     })
         .catch((error) => {

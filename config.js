@@ -19,7 +19,7 @@ exports.web3 = web3;
 
 // Contract
 const contracts = {
-   contractAddress: "0x672781036C12E3Cf13F2ab3bD13C7291673E68C6"
+   contractAddress: "0x7844E72A0574eDC55a8E5910AD3118515437e9CA"
 }
 exports.contracts = contracts;
 
